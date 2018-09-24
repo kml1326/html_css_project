@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Embed Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro:300');
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*  =========================================
+    Base
+    =========================================  */
+
+body {
+  background: #ebedf2;
+  font-family: sans-serif;
+}
+.container {
+ width: 95%;
+ margin: 0 auto;
+}
+
+/*  ========================================
+    SubHeading
+    ========================================  */
+.sub_header {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.sub_header_title {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  vertical-align: middle;
+  color: #3f4047;
+}
+.sub_header__daterange {
+  display: inline-block;
+  float: right;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 2rem;
+  padding: 5px;
+}
+.sub_header__daterange_date {
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+.sub_header__daterange_btn {
+  display: inline-block;
+  background: #716aca;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+.sub_header__daterange_btn .fa-angle-down {
+  margin: 25% 0 0 35%;
+  color: #f8f9fa;
+}
+
+/*  ========================================
+    Section first
+    ========================================  */
+
+.grid{
+  display: grid;
+  grid-gap: 30px;
+}
+.col-1-3{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 0 7px .5px #bdc0c8;
+}
