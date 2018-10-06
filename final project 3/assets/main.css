@@ -111,6 +111,105 @@ body {
 
  }
 
+
+/*  ========================================
+    Sidebar M.S.
+    ========================================  */
+
+  .main {
+    width: 83%;
+    padding-left: 19rem;
+  }
+  .nav-side{
+    background:  #212529;
+    padding-top: .1rem;
+    width: 19rem;
+    max-width: 19rem;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: fixed;
+    letter-spacing: 1px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #868aa8;
+    padding: 0 2rem;
+    
+  }
+
+  .main__list{
+    color: white;
+    font-size: 1rem;
+    padding: .1rem 2rem;
+    font-weight: 100;
+    background: #282a3c;
+  }
+
+  .list--1{
+    margin: 3rem 0;
+  }
+
+  .line{
+    background: white;
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    left: 80%;
+    top: 2.5%;
+    transition: all .7s;
+    cursor: pointer;
+  }
+
+  .line-1{
+    margin: 7px 0px;
+  }
+
+  .line-2{
+    margin: 14px 0px;
+    transform: scaleX(.7);
+  }
+
+  .line-3{
+    transform: scaleX(.6);
+  }
+
+  .lines:hover .line{
+    transform: scaleX(1);
+    background: #2739c1;
+  }
+
+  .dash{
+    color:#6610f2;
+  }
+
+  .list--heading{
+    color: #464b66;
+    font-size: .7rem;
+    padding: 0rem 2rem;
+  }
+
+  .side-list_items{
+    padding: .7rem 0rem;
+    font-size: .9rem;
+  }
+
+  .side-list_items:hover{
+    background: #282a3c;
+    width: 100%;
+  }
+
+  i{
+    font-size: 1.1rem;
+  }
+  li:hover i{
+    color: pink;
+  }
+
+
+ 
+
 /*  ========================================
     SubHeading
     ========================================  */
