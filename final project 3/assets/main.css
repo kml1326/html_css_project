@@ -52,7 +52,7 @@ body {
 }
 .container {
  width: 95%;
- margin: 0 auto;
+ margin: 30px auto;
 }
 
 /*  ========================================
@@ -98,18 +98,104 @@ body {
 }
 
 /*  ========================================
-    Section first
+    For All sections
     ========================================  */
 
-.grid{
-  display: grid;
-  grid-gap: 30px;
-}
-.col-1-3{
+.col-1-1-1 {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.box{
+.col-1-1 {
+  grid-template-columns: 1fr 1fr;
+}
+.col-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+.box {
   box-sizing: border-box;
   background: #fff;
   box-shadow: 0 0 7px .5px #bdc0c8;
+}
+
+
+/*  ========================================
+    Section first
+    ========================================  */
+
+.grid1 {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.trends_chart {
+  background: url('media/treands-chart.png');
+  height:250px;
+}
+
+.activity-chart {
+  background: url('media/activity-chart.png');
+  height: 250px;
+}
+.blog {
+
+}
+.blog-img-area {
+  height: 200px;
+  position: relative;
+}
+.blog-img {
+width: 100%;
+height: 100%;
+}
+.blog-nav {
+  display: inline-block;
+  margin: 20px 0 20px 30px;
+  padding: 7px 10px;
+  background: #6610f2;
+  color: white;
+  border-radius: 25px;
+  font-size: 13px;
+}
+.blog-title {
+  color: white;
+  margin: 0 20px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  bottom: 0;
+  position: absolute;
+}
+.blog-disc {
+  padding: 20px;
+}
+.trends_header__btn {
+  float: right;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+
+/*  ========================================
+    Section second
+    ========================================  */
+
+.grid2 {
+  display: grid;
+  grid-gap: 2px;
+}
+
+/*  ========================================
+    Section Third
+    ========================================  */
+
+.personal-income-hero {
+  background: url('media/personal-income-bg.jpg') center;
+  background-size: cover;
+  max-height: 286px;
+  height: 280px;
+}
+.finance-state-hero {
+  background: #5075E4;
+  height: 280px;
+}
+.packages {
+  background: #ffb822;
 }
