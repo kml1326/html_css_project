@@ -47,19 +47,74 @@ table {
     =========================================  */
 
 body {
-  background: #ebedf2;
+  
   font-family: sans-serif;
 }
 .container {
  width: 95%;
  margin: 0 auto;
+ background: #ebedf2;
 }
+/*==========================================
+        Header
+==========================================*/
+
+.header {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  padding: 2rem 0;
+
+}
+.header li {
+  list-style: none;
+}
+.top-nav-left ul,
+.top-nav-right ul {
+  display: flex;
+}
+.top-nav-left__item a {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+  font-size: 14px;
+}
+.top-nav-left__item a:hover {
+  color: purple;
+}
+.top-nav-right__item a {
+  font-size: 20px;
+}
+.top-nav-left__item {
+  margin-left: 3rem;
+
+}
+.flag-icon,
+.user-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.user-img {
+  border-radius: 50%;
+ }
+ .icon {
+  margin-right: 10px;
+ }
+ .new-btn {
+  padding: 2px;
+  border-radius: 20px;
+  width: 50px;
+  background-color: purple;
+ }
+ .top-nav-right ul{
+  justify-content: space-around;
+  color: purple;
+
+ }
 
 /*  ========================================
     SubHeading
     ========================================  */
 .sub_header {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   margin-bottom: 40px;
 }
 .sub_header_title {
