@@ -55,19 +55,174 @@ table {
     =========================================  */
 
 body {
-  background: #ebedf2;
+  
   font-family: sans-serif;
 }
 .container {
  width: 95%;
  margin: 0 auto;
+ /* background: #ebedf2; */
+
 }
+/*==========================================
+        Header
+==========================================*/
+
+.header {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  padding: 2rem 0;
+
+}
+.header li {
+  list-style: none;
+}
+.top-nav-left ul,
+.top-nav-right ul {
+  display: flex;
+}
+.top-nav-left__item a {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+  font-size: 14px;
+}
+.top-nav-left__item a:hover {
+  color: purple;
+}
+.top-nav-right__item a {
+  font-size: 20px;
+}
+.top-nav-left__item {
+  margin-left: 3rem;
+
+}
+.flag-icon,
+.user-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.user-img {
+  border-radius: 50%;
+ }
+ .icon {
+  margin-right: 10px;
+ }
+ .new-btn {
+  padding: 2px;
+  border-radius: 20px;
+  width: 50px;
+  background-color: purple;
+ }
+ .top-nav-right ul{
+  justify-content: space-around;
+  color: purple;
+
+ }
+
+
+/*  ========================================
+    Sidebar M.S.
+    ========================================  */
+
+  .main {
+    width: 83%;
+    padding-left: 19rem;
+  }
+  .nav-side{
+    background:  #212529;
+    padding-top: .1rem;
+    width: 19rem;
+    max-width: 19rem;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: fixed;
+    letter-spacing: 1px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #868aa8;
+    padding: 0 2rem;
+    
+  }
+
+  .main__list{
+    color: white;
+    font-size: 1rem;
+    padding: .1rem 2rem;
+    font-weight: 100;
+    background: #282a3c;
+  }
+
+  .list--1{
+    margin: 3rem 0;
+  }
+
+  .line{
+    background: white;
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    left: 80%;
+    top: 2.5%;
+    transition: all .7s;
+    cursor: pointer;
+  }
+
+  .line-1{
+    margin: 7px 0px;
+  }
+
+  .line-2{
+    margin: 14px 0px;
+    transform: scaleX(.7);
+  }
+
+  .line-3{
+    transform: scaleX(.6);
+  }
+
+  .lines:hover .line{
+    transform: scaleX(1);
+    background: #2739c1;
+  }
+
+  .dash{
+    color:#6610f2;
+  }
+
+  .list--heading{
+    color: #464b66;
+    font-size: .7rem;
+    padding: 0rem 2rem;
+  }
+
+  .side-list_items{
+    padding: .7rem 0rem;
+    font-size: .9rem;
+  }
+
+  .side-list_items:hover{
+    background: #282a3c;
+    width: 100%;
+  }
+
+  i{
+    font-size: 1.1rem;
+  }
+  li:hover i{
+    color: pink;
+  }
+
+
+ 
 
 /*  ========================================
     SubHeading
     ========================================  */
 .sub_header {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   margin-bottom: 40px;
 }
 .sub_header_title {
@@ -106,22 +261,25 @@ body {
 }
 
 /*  ========================================
-    Section first
+    For All sections
     ========================================  */
 
-.grid{
-  display: grid;
-  grid-gap: 30px;
-}
-.col-1-3{
+.col-1-1-1 {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.box{
+.col-1-1 {
+  grid-template-columns: 1fr 1fr;
+}
+.col-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+.box {
   box-sizing: border-box;
   background: #fff;
   box-shadow: 0 0 7px .5px #bdc0c8;
 }
 
+<<<<<<< HEAD
 /* Best Seller Section */
 .best-seller {
   font-family: 'Roboto', sans-serif;
@@ -207,3 +365,88 @@ body {
   font-size: 1.3rem;
 }
  
+=======
+
+/*  ========================================
+    Section first
+    ========================================  */
+
+.grid1 {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.trends_chart {
+  background: url('media/treands-chart.png');
+  height:250px;
+}
+
+.activity-chart {
+  background: url('media/activity-chart.png');
+  height: 250px;
+}
+.blog {
+
+}
+.blog-img-area {
+  height: 200px;
+  position: relative;
+}
+.blog-img {
+width: 100%;
+height: 100%;
+}
+.blog-nav {
+  display: inline-block;
+  margin: 20px 0 20px 30px;
+  padding: 7px 10px;
+  background: #6610f2;
+  color: white;
+  border-radius: 25px;
+  font-size: 13px;
+}
+.blog-title {
+  color: white;
+  margin: 0 20px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  bottom: 0;
+  position: absolute;
+}
+.blog-disc {
+  padding: 20px;
+}
+.trends_header__btn {
+  float: right;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+
+/*  ========================================
+    Section second
+    ========================================  */
+
+.grid2 {
+  display: grid;
+  grid-gap: 2px;
+}
+
+/*  ========================================
+    Section Third
+    ========================================  */
+
+.personal-income-hero {
+  background: url('media/personal-income-bg.jpg') center;
+  background-size: cover;
+  max-height: 286px;
+  height: 280px;
+}
+.finance-state-hero {
+  background: #5075E4;
+  height: 280px;
+}
+.packages {
+  background: #ffb822;
+}
+>>>>>>> ab736e0c02fbf0fc963cac9e47a071f62376d758

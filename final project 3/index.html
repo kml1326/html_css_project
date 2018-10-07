@@ -6,8 +6,95 @@
 	<link rel="stylesheet" type="text/css" href="assets/main.css">
 </head>
 <body>
-	<main>
+
+  <!-- sideNav M.S. -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+  <nav class="nav-side">
+    <ul class="main__list">
+      <h1 class="nav-heading">METRONIC</h1>
+      <div class="lines">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+    </ul>
+    <ul class="list--1">
+      <li><a href="" class="dash"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+    </ul>
+    <ul class="list--2">
+       <li><h5 class="list--heading">COMPONENTS</h5></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-layer-group"></i> Base</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-project-diagram"></i> Icons</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-toggle-on"></i> Buttons</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-file-import"></i> Portlets</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-sliders-h"></i> Timeline</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-users"></i> Widgets</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-calendar-alt"></i> Calenders</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-chart-bar"></i> Charts</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-map-marked-alt"></i> Maps</a></li>
+       <li class="side-list_items"><a href=""><i class="fas fa-exclamation-triangle"></i> Utils</a></li>
+    </ul>
+    <ul class="list--3">
+      <li><h5 class="list--heading">CRUD</h5></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-sliders-h"></i> Froms & Controls</a></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-magic"></i> Metronic Wizard</a></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-database"></i> Metronic Database</a></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-table"></i> DataTables</a></li>
+    </ul>
+    <ul class="list--4">
+      <li><h5 class="list--heading">Tools</h5></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-cog"></i> Layout Builder</a></li>
+    </ul>
+    <ul class="list--5">
+      <li><h5 class="list--heading">Snipets</h5></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-tag"></i> Pricing Tables</a></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-file-invoice"></i> Invoice</a></li>
+      <li class="side-list_items"><a href=""><i class="far fa-question-circle"></i> FAQs</a></li>
+      <li class="side-list_items"><a href=""><i class="fas fa-file"></i> Custom Pages</a></li>
+    </ul>
+  </nav>
+  
+
+	<main class="main">
+     <div class="header">
+        <nav class="top-nav-left">
+          <ul>
+            <li class="top-nav-left__item">
+              <a href="">
+                <i class="far fa-plus-square icon"></i>Actions
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="top-nav-left__item">
+              <a href=""><i class="fas fa-chart-line icon"></i>Reports
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="top-nav-left__item">
+              <a href=""><i class="fas fa-paper-plane icon"></i>Apps
+                <button class="new-btn">new</button>
+                <i class="fas fa-angle-down"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="top-nav-right">
+          <ul>
+            <li class="top-nav-right__item" ><i class="fas fa-search"></i></li>
+            <li class="top-nav-right__item" ><i class="far fa-bell"></i></li>
+            <li class="top-nav-right__item"><i class="fas fa-recycle"></i></li>
+            <li class="top-nav-right__item"><img class="flag-icon" src="assets/media/us.jpg"></li>
+            <li class="top-nav-right__item"><img class="user-img" src="assets/media/user.jpg"></li>
+            <li class="top-nav-right__item"><i class="fas fa-align-justify"></i></li>
+          </ul>
+        </nav>
+      </div>
 		<section class="container">
+
       <div class="sub_header">
         <h3 class="sub_header_title">Dashboard</h3>
         <nav class="sub_header__daterange">
@@ -18,8 +105,10 @@
         </nav>
       </div>  
     </section>
+
+    <!-- Section First -->
     <section class="container">
-      <div class="grid col-1-3">
+      <div class="grid1 col-1-1-1">
         <!-- start trends box area -->
         <div class="trends box">
           <div class="trends_header">
@@ -56,13 +145,67 @@
         </div>
         <!-- end trends -->
         <!-- start activity box area -->
-        <div class="box"></div>
+        <div class="box">
+          <div>
+            <div class="activity-chart"></div>
+          </div>
+          <div>
+            <i class="fas fa-truck"></i>
+            <p>Delivered</p>
+            <span>15 New</span>
+            <p>Paskages</p>
+          </div>
+          <div>
+            <i class="fas fa-chart-pie"></i>
+            <p>Ordered</p>
+            <span>72 New items</span>
+          </div>
+          <div>
+            <i class="far fa-paper-plane"></i>
+            <p>Reporeted</p>
+            <span>72 Support</span>
+            <p>Cases</p>
+          </div>
+          <div>
+            <i class="fas fa-clock"></i>
+            <p>Arrived</p>
+            <span>34 Upgraded</span>
+            <p>Boxes</p>
+          </div>
+        </div>
         <!-- end activity -->
         <!-- start blog box area -->
-        <div class="box"></div>
+        <div class="box blog">
+          <div class="blog-img-area">
+            <img src="assets/media/blog1.jpg" class="blog-img">
+          </div>
+          <p><span class="blog-nav">Blog</span></p>
+          <p class="blog-title">Introducing New Feature</p>
+          <div class="blog-disc">
+            <div>
+              <img src="" alt="Anna Krox">
+              <p>
+                <span>Anna Krox</span>
+                <p>UX/Ui Designer, Google</p>
+              </p>
+              <span>
+                <span>18</span>
+                <span>Comments</span>
+              </span>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry scrambled
+               it to make text of the printing and typesetting industry scrambled a type specimen 
+              book text of the dummy text of the printing printing and typesetting industry 
+              scrambled dummy text of the printing. 
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
         <!-- end blog -->
       </div>
     </section>
+<<<<<<< HEAD
     <!-- Best Seller Section -->
     <section class="best-seller">
       <div class="best-seller_header_wrapper">
@@ -115,5 +258,116 @@
       </div>  
     </section>
 	</main>
+=======
+
+    <!-- Second Section -->
+    <section class="container">
+      <div class="grid2 col-1-1-1">
+        <!-- start profit-amount box area -->
+        <div class="box">
+          <div class="widget">
+            <p class="widget_info">
+              <p class="widget_title">Member Profit</p>
+              <p class="widget_sub_info">Awerage weekly profit</p>
+              <p>Profit</p>
+            </p>
+            <p class="widget_number">+$17,800</p>
+          </div>
+          <div class="widget">
+            <p class="widget_info">
+              <p class="widget_title">Orders</p>
+              <p class="widget_sub_info">Weekly Customer</p>
+              <p>Orders</p>
+            </p>
+            <p class="widget_number">+1,800</p>
+          </div>
+          <div class="widget">
+            <p class="widget_info">
+              <p class="widget_title">Issue Reports</p>
+              <p class="widget_sub_info">System Bugs and</p>
+              <p>issues</p>
+            </p>
+            <p class="widget_number">-27,49%</p>
+          </div>
+        </div>
+        <!-- start daily-sale box area -->
+        <div class="box">
+          <p>Daily Sales</p>
+          <p>Check out each collumn for more details</p>
+          <img src="assets/media/daily-sale-chart.png">
+        </div>
+        <!-- start profit-share box area -->
+        <div class="box">
+          <p>Profit Share</p>
+          <p>Profit Share between customers</p>
+          <div>
+            <img src="assets/media/profit-share-chart.png">
+            <div>
+              <p>
+                <span></span>
+                <span>37% Sport Tickets</span>
+              </p>
+              <p>
+                <span></span>
+                <span>47% Business</span>
+                <span>Events</span>
+              </p>
+              <p>
+                <span></span>
+                <span>19% Others</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="grid1 col-1-1-1">
+        <!-- start personal income box area -->
+        <div class="box">
+          <div class="personal-income-hero">
+            <p>
+              <span>Personal Income</span>
+              <button>
+                <span>2018</span>
+                <span><i class="fas fa-angle-down"></i></span>
+              </button>
+            </p>
+            <p>$256,100</p>
+          </div>
+          <button>Inclusive All Earnings</button>
+          <div>
+            <ul>
+              <li>Quater 1</li>
+              <li>Quater 2</li>
+              <li>Quater 3</li>
+              <li>Quater 4</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              <img src="assets/media/profit-share-chart.png">
+            </p>
+            <p>
+              <p><span></span><span>37% Case</span></p>
+              <p><span></span><span>42% Events</span></p>
+              <p><span></span><span>19% Others</span></p>
+            </p>
+          </div>
+        </div>
+
+        <!-- start Finance states box area -->
+        <div class="box">
+          <div class="finance-state-hero"></div>
+        </div>
+
+        <!-- start packages box area -->
+        <div class="box packages"></div>
+
+      </div>
+    </section>
+  </main>
+  <script src="assets/main.js"></script>
+>>>>>>> ab736e0c02fbf0fc963cac9e47a071f62376d758
 </body>
 </html>
