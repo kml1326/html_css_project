@@ -51,10 +51,9 @@ body {
   font-family: sans-serif;
 }
 .container {
- width: 95%;
- margin: 0 auto;
- /* background: #ebedf2; */
-
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 /*==========================================
         Header
@@ -64,7 +63,7 @@ body {
   display: grid;
   grid-template-columns: 70% 1fr;
   padding: 2rem 0;
-
+  background: white;
 }
 .header li {
   list-style: none;
@@ -119,6 +118,7 @@ body {
   .main {
     width: 83%;
     padding-left: 19rem;
+    background: #ebedf2;
   }
   .nav-side{
     background:  #212529;
@@ -135,8 +135,7 @@ body {
   a{
     text-decoration: none;
     color: #868aa8;
-    padding: 0 2rem;
-    
+    padding: 0 2rem; 
   }
 
   .main__list{
@@ -215,7 +214,7 @@ body {
     ========================================  */
 .sub_header {
   /*margin-top: 100px;*/
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 .sub_header_title {
   display: inline-block;
@@ -256,6 +255,14 @@ body {
     For All sections
     ========================================  */
 
+.grid1 {
+  display: grid;
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-gap: 2px;
+}
 .col-1-1-1 {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -270,16 +277,21 @@ body {
   background: #fff;
   box-shadow: 0 0 7px .5px #bdc0c8;
 }
-
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+ul {
+  display: inline-block;
+}
+nav {
+  display: inline-block;
+}
 
 /*  ========================================
     Section first
     ========================================  */
 
-.grid1 {
-  display: grid;
-  grid-gap: 30px;
-}
 
 .trends_chart {
   background: url('media/treands-chart.png');
@@ -332,10 +344,7 @@ height: 100%;
     Section second
     ========================================  */
 
-.grid2 {
-  display: grid;
-  grid-gap: 2px;
-}
+
 
 /*  ========================================
     Section Third
@@ -362,26 +371,20 @@ height: 100%;
   background-color: #fff;
   box-shadow: 0 0 7px .5px #bdc0c8;
   box-sizing: border-box;
-  width: 500px;
 }
-.recent-head {
-  display: grid;
-  grid-template-columns:300px 200px;
+.recent-heading {
+  padding: 30px;
+  border-bottom: .5px solid #bdc0c8;
 }
-.recent_heading{
- /* margin-top: 10px;*/
-  margin-left: 20px;
-  padding-top: 20px;
+.recent_heading_tools {
+  float: right;
+  vertical-align: top;
 }
-.recent_heading_tools ul li{
-  list-style-type: none;
-  display: inline-block;
-  margin:0 5px;
-  padding-top: 20px;
- }
- .navigation li a {
+ .nav_item a {
   text-decoration: none;
   color:#7069ca;
+  padding: 0;
+  padding-right: 20px;
  }
  button {
   background-color:#7069ca;
@@ -396,7 +399,7 @@ height: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 15px 20px;
-  padding: 15px 0px;
+  padding: 40px 0px;
   color: #575962;
 }
 .time {
@@ -436,8 +439,10 @@ height: 100%;
 }
 .author {
   font-size: .8rem;
+
 }
 .author__name {
   text-decoration: none;
   color: gray;
+  padding: 0;
 }
