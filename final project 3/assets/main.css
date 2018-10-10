@@ -593,6 +593,7 @@ support ticket
 ==================================*/
 .support-tickets {
   width: 38vw;
+  background-color: white;
   padding: 20px;
   box-shadow: 0 0 7px .5px #bdc0c8;
   font-family: 'Poppins', sans-serif;
@@ -617,8 +618,8 @@ support ticket
 }
 .support-tickets__row {
   line-height: 1rem;
-  margin-top: 1.5rem;
-  /*border-bottom: 2px dashed rgba(0,0,0,0.5);*/
+  margin-top: 1rem;
+  padding: 10px;
 }
 .user-img1 {
   height: 2.2rem;
