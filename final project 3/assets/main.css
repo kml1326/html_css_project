@@ -416,15 +416,42 @@ nav {
   background: url('media/treands-chart.png');
   height:300px;
 }
+.widget {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgb(235, 229, 229);
+}
+.trends .widget:last-child {
+  border: none;
+  padding-bottom: 40px;
+}
+.widget_logo {
+  padding-left: 10px;
+}
+.widget_sub_info {
+  font-size: 13px;
+  color: #7b7e8a; 
+}
+.widget_number {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #f4516c;
+}
+.widget_info {
+  padding: 0 20px;
+}
+.widget_title {
+  color: #737377;
+  font-weight: 600;
+}
 .activity {
   position: relative;
 }
 .activity-chart {
   background: linear-gradient(#dc3545, #e83e8c);
   height: 300px;
-}
-.blog {
-
 }
 .blog-img-area {
   height: 200px;
@@ -435,6 +462,7 @@ width: 100%;
 height: 100%;
 }
 .blog-nav {
+  position: absolute;
   display: inline-block;
   margin: 20px 0 20px 30px;
   padding: 7px 10px;
@@ -448,7 +476,6 @@ height: 100%;
   margin: 0 20px;
   font-size: 1.45rem;
   font-weight: 600;
-  bottom: 0;
   position: absolute;
 }
 .blog-disc {
@@ -476,7 +503,37 @@ height: 100%;
   position: absolute;
   top: 200px;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
+  left: 14%;
+}
+.activity-card {
+  color: #7b7e8a;
+  background: white;
+  box-shadow:0 0 1px 1px #eff3fa;
+  padding: 30px 10px 10px 20px;
+  font-size: 0.8rem;
+}
+.activity-logo {
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+.act-card-title {
+  font-size: 1.1rem;
+  color: #6f727d;
+  font-weight: 600;
+}
+.fa-truck {
+  color: #716aca;
+}
+.fa-chart-pie {
+  color: #34bfa3;
+}
+.fa-paper-plane {
+  color: #36a3f7;
+}
+.fa-clock {
+  color: #f4516c;
 }
 
 
