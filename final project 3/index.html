@@ -263,9 +263,9 @@
       <div class="grid1 col-1-1-1">
         <!-- start trends box area -->
         <div class="trends box">
-          <div class="trends_header">
-            <span class="trends_header__title">Trends</span>
-            <nav class="trends_header__btn">All
+          <div class="_header">
+            <span class="_header__title">Trends</span>
+            <nav class="_header__btn">All
               <i class="fas fa-angle-down"></i> 
             </nav>
           </div>
@@ -297,32 +297,39 @@
         </div>
         <!-- end trends -->
         <!-- start activity box area -->
-        <div class="box">
-          <div>
-            <div class="activity-chart"></div>
+        <div class="box activity">
+          <div class="activity-chart">
+            <div class="_header activity_header">
+                <span class="_header__title">Activity</span>
+                <nav class="_header__btn activity_header__btn">
+                  <i class="fas fa-dot-circle"></i>
+                </nav>
+            </div>
           </div>
-          <div>
-            <i class="fas fa-truck"></i>
-            <p>Delivered</p>
-            <span>15 New</span>
-            <p>Paskages</p>
-          </div>
-          <div>
-            <i class="fas fa-chart-pie"></i>
-            <p>Ordered</p>
-            <span>72 New items</span>
-          </div>
-          <div>
-            <i class="far fa-paper-plane"></i>
-            <p>Reporeted</p>
-            <span>72 Support</span>
-            <p>Cases</p>
-          </div>
-          <div>
-            <i class="fas fa-clock"></i>
-            <p>Arrived</p>
-            <span>34 Upgraded</span>
-            <p>Boxes</p>
+          <div class="activity-cards">
+              <div>
+                  <i class="fas fa-truck"></i>
+                  <p>Delivered</p>
+                  <span>15 New</span>
+                  <p>Paskages</p>
+                </div>
+                <div>
+                  <i class="fas fa-chart-pie"></i>
+                  <p>Ordered</p>
+                  <span>72 New items</span>
+                </div>
+                <div>
+                  <i class="far fa-paper-plane"></i>
+                  <p>Reporeted</p>
+                  <span>72 Support</span>
+                  <p>Cases</p>
+                </div>
+                <div>
+                  <i class="fas fa-clock"></i>
+                  <p>Arrived</p>
+                  <span>34 Upgraded</span>
+                  <p>Boxes</p>
+                </div>
           </div>
         </div>
         <!-- end activity -->
@@ -465,55 +472,57 @@
       </div>
     </section>
      <!-- recent notifacation -->
-    <section class="recent-notifacation">
-      <div class="recent-head">
-        <div class="recent_heading">
-          <p class="title">Recent Notifacation</p>
-        </div>
-        <div class="recent_heading_tools">
-          <ul class="navigation">
-            <li class="nav_item"> <a href="#"><button>Today</button></a> </li>
-            <li class="nav_item"> <a href="#"> Month </a> </li>
-          </ul>
-        </div>
-      </div><hr>
-      <div class="list_items">
-        <span class="time">09:00</span>
-        <div class="author__info"><span>
-          <p class="detail">Lorem ipsum dolor sit amit,consectetur eiusmdd tempor </p>
-          <span class="author"><a href="#" class="author__name">By Bob</a></span>
-        </div></span>
-        <span class="time time1">10:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor sit amit </p>
-          <span class="author"><a href="#" class="author__name">By Sean</a></span>
-        </div>
-         <span class="time time2">11:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor sit amit eiusmdd tempor  </p>
-          <span class="author"><a href="#" class="author__name">By James</a></span>
-        </div>
-         <span class="time time3">12:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor </p>
-          <span class="author"><a href="#" class="author__name">By James</a></span>
-        </div>
-         <span class="time time4">14:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor sit amit,consectetur eiusmdd  </p>
-          <span class="author"><a href="#" class="author__name">By Derrick</a></span>
-        </div>
-         <span class="time time5">15:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor sit amit,consectetur  </p>
-          <span class="author"><a href="#" class="author__name">By Iman</a></span>
-        </div>
-         <span class="time time6">16:00</span>
-        <div class="author__info">
-          <p class="detail">Lorem ipsum dolor sit consectetur eiusmdd tempor  </p>
-          <span class="author"><a href="#" class="author__name">By Aziko</a></span>
-        </div>
-      </div>
+    <section class="container">
+      <section class="grid1 col-1-1">
+        <section class="recent-notifacation">
+          <div class="recent-heading">
+            <span class="title">Recent Notifacation</span>
+            <nav class="recent_heading_tools">
+              <ul class="navigation">
+                <li class="nav_item"> <a href="#"><button>Today</button></a> </li>
+                <li class="nav_item"> <a href="#"> Month </a> </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="list_items">
+            <span class="time">09:00</span>
+            <div class="author__info"><span>
+              <p class="detail">Lorem ipsum dolor sit amit,consectetur eiusmdd tempor </p>
+              <span class="author"><a href="#" class="author__name">By Bob</a></span>
+            </div></span>
+            <span class="time time1">10:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor sit amit </p>
+              <span class="author"><a href="#" class="author__name">By Sean</a></span>
+            </div>
+             <span class="time time2">11:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor sit amit eiusmdd tempor  </p>
+              <span class="author"><a href="#" class="author__name">By James</a></span>
+            </div>
+             <span class="time time3">12:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor </p>
+              <span class="author"><a href="#" class="author__name">By James</a></span>
+            </div>
+             <span class="time time4">14:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor sit amit,consectetur eiusmdd  </p>
+              <span class="author"><a href="#" class="author__name">By Derrick</a></span>
+            </div>
+             <span class="time time5">15:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor sit amit,consectetur  </p>
+              <span class="author"><a href="#" class="author__name">By Iman</a></span>
+            </div>
+             <span class="time time6">16:00</span>
+            <div class="author__info">
+              <p class="detail">Lorem ipsum dolor sit consectetur eiusmdd tempor  </p>
+              <span class="author"><a href="#" class="author__name">By Aziko</a></span>
+            </div>
+          </div>
+        </section>
+      </section>
     </section>
     <!-- Task -->
     <section class="task">
