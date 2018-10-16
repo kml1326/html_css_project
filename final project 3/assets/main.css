@@ -386,7 +386,7 @@ li:hover i{
 }
 .grid2 {
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 3px;
 }
 .col-1-1-1 {
   grid-template-columns: 1fr 1fr 1fr;
@@ -639,13 +639,17 @@ nav {
   color: #f4516c;
 }
 
-
-
 /*  ========================================
-    Section second
+     section second
     ========================================  */
 .profit-widget {
   justify-content: space-between;
+}
+.profit-widget:first-child {
+  padding-top : 40px; 
+}
+.profit-widget:last-child {
+  border: none;
 }
 .profit-widget .widget_info {
   padding: 0;
@@ -658,14 +662,58 @@ nav {
 .profit-widget .widget_sub_info {
   font-size: 16px;
 }
-
-
+.daily_sales, 
+.profit_share{
+  padding: 40px 30px;
+}
+.daily_sales_header,
+.profit_share_header {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #717279;
+}
+.daily_sales_para,
+.profit_share_para {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #9699a2;
+}
+.daily_sales_img {
+  margin-top: 50px;
+  height: 120px;
+  width: 100%;
+}
+.profit_share_chart {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profit_share_desc {
+  font-size: 1rem;
+  color: #5f6066;
+  padding: 8px 0;
+}
+.profit_share_bullet {
+  display: block;
+  width: 2rem;
+  height: 0.45rem;
+  margin-bottom: 0.12rem;
+  border-radius: 1.1rem;
+  background-color: #34bfa3;
+}
+.bullet_first {
+  background-color: #f77722;
+}
+.bullet_last {
+  background-color: #ffb822;
+}
 
 /*  ========================================
     Section Third
     ========================================  */
-
-.personal-income-hero {
+    
+.personal_income_hero {
   background: url('media/personal-income-bg.jpg') center;
   background-size: cover;
   max-height: 286px;
@@ -677,6 +725,9 @@ nav {
 }
 .packages {
   background: #ffb822;
+}
+.personal_income_header {
+
 }
 
 
@@ -760,8 +811,6 @@ nav {
 .author__name {
   text-decoration: none;
   color: gray;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 /*  ========================================
    Task
@@ -831,27 +880,22 @@ nav {
 .author__name {
   text-decoration: none;
   color: gray;
-<<<<<<< HEAD
-}
-=======
-=======
-=======
 }
 
 /*==================================
 support ticket
 ==================================*/
 .support-tickets {
-  width: 38vw;
-  background-color: white;
   padding: 20px;
-  box-shadow: 0 0 7px .5px #bdc0c8;
   font-family: 'Poppins', sans-serif;
 }
 .support-tickets__header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 30px;
+  color: #52535c;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(230, 224, 224, 0.8);
 }
 .support-tickets__heading {
   font-weight: 600;
@@ -867,9 +911,12 @@ support ticket
   display: inline-block;
 }
 .support-tickets__row {
-  line-height: 1rem;
-  margin-top: 1rem;
+  margin: 1rem 0;
   padding: 10px;
+  border-bottom: 1px dashed rgba(230, 224, 224, 0.8);
+}
+.support-tickets__row:last-child {
+  border: none;
 }
 .user-img1 {
   height: 2.2rem;
@@ -886,9 +933,9 @@ support ticket
 }
 .ticket-description {
   font-size: 14px;
-  margin-top: 10px;
-  
-  color: rgba(0,0,0,0.5);
+  margin: 10px 0;
+  line-height: 1.2rem;
+  color: rgba(46, 39, 39, 0.5);
 }
 .ticket-status {
   font-size: 15px;
@@ -901,8 +948,5 @@ support ticket
 }
 .green {
   color: #48D1CC;
->>>>>>> f96356d00b0ef2fefb4dfb02963ad0536990a505
   padding: 0;
->>>>>>> 2627f68f6cf3d6479c7099ac57c4a163762a1c3f
 }
->>>>>>> f0b225ed102342d22be52bac6b048b3670ceb3ca
