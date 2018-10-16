@@ -206,11 +206,6 @@ body {
     color: pink;
   }
  
-body{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
 
 /* .nav-side{
   background:  #212529;
@@ -220,7 +215,7 @@ body{
   height: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  position: relative;
+  position: fixed;
   letter-spacing: 1px;
 } */
 
@@ -230,12 +225,17 @@ ul,li{
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: #868aa8;
   padding: 0 2rem;
   
 }
+
+.main{
+  padding-left: 19rem;
+}
+
 
 .main__list{
    color: white;
@@ -326,9 +326,7 @@ li:hover i{
   color: #716aca;
 }
 
- 
-
-/*  ========================================
+ /*  ========================================
     SubHeading
     ========================================  */
 .sub_header {
@@ -657,6 +655,79 @@ nav {
 .author__name {
   text-decoration: none;
   color: gray;
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+/*  ========================================
+   Task
+    ========================================  */
+.task-notifacation {
+  background-color: #fff;
+  box-shadow: 0 0 7px .5px #bdc0c8;
+  box-sizing: border-box;
+  width: 500px;
+}
+.task-head {
+  display: grid;
+  grid-template-columns:300px 200px;
+}
+.task_heading{
+ /* margin-top: 10px;*/
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.recent_heading_tools ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin:0 5px;
+  padding-top: 20px;
+ }
+ .navigation li a {
+  text-decoration: none;
+  color:#7069ca;
+ }
+ .container input {
+  height:17px;
+  width: 17px;
+ }
+ button {
+  background-color:#7069ca;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
+  padding: 0.6em 1.4em;
+  font-size: .85rem;
+ }
+.list_items {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 15px 20px;
+  padding: 15px 0px;
+  color: #575962;
+}
+.time-task{
+  color:#40534f;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-right: 4px solid #36a3f7;
+}
+.title{
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+.author {
+  font-size: .8rem;
+}
+.author__name {
+  text-decoration: none;
+  color: gray;
+=======
+=======
 }
 
 /*==================================
@@ -722,5 +793,7 @@ support ticket
 }
 .green {
   color: #48D1CC;
+>>>>>>> f96356d00b0ef2fefb4dfb02963ad0536990a505
   padding: 0;
+>>>>>>> 2627f68f6cf3d6479c7099ac57c4a163762a1c3f
 }
