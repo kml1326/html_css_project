@@ -4,6 +4,8 @@
 	<title></title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
 </head>
 <body>
 
@@ -272,26 +274,26 @@
           <div class="trends_chart"></div>
           <div class="widget">
             <img src="assets/media/logo1.png" class="widget_logo">
-            <p class="widget_info">
-              <span class="widget_title">Python</span>
+            <div class="widget_info">
+              <p class="widget_title">Python</p>
               <span class="widget_sub_info">A Programming Language</span>
-            </p>
+            </div>
             <span class="widget_number">+$17</span>
           </div>
           <div class="widget">
             <img src="assets/media/logo2.png" class="widget_logo">
-            <p class="widget_info">
-              <span class="widget_title">FlyThemes</span>
+            <div class="widget_info">
+              <p class="widget_title">FlyThemes</p>
               <span class="widget_sub_info">A Let's Fast Again Language</span>
-            </p>
+            </div>
             <span class="widget_number">+$300</span>
           </div>
           <div class="widget">
             <img src="assets/media/logo3.png" class="widget_logo">
-            <p class="widget_info">
-              <span class="widget_title">AirApp</span>
+            <div class="widget_info">
+              <p class="widget_title">AirApp</p>
               <span class="widget_sub_info">Awesome App For Project Management</span>
-            </p>
+            </div>
             <span class="widget_number">+$6700</span>
           </div>
         </div>
@@ -307,29 +309,29 @@
             </div>
           </div>
           <div class="activity-cards">
-              <div>
-                  <i class="fas fa-truck"></i>
-                  <p>Delivered</p>
-                  <span>15 New</span>
-                  <p>Paskages</p>
-                </div>
-                <div>
-                  <i class="fas fa-chart-pie"></i>
-                  <p>Ordered</p>
-                  <span>72 New items</span>
-                </div>
-                <div>
-                  <i class="far fa-paper-plane"></i>
-                  <p>Reporeted</p>
-                  <span>72 Support</span>
-                  <p>Cases</p>
-                </div>
-                <div>
-                  <i class="fas fa-clock"></i>
-                  <p>Arrived</p>
-                  <span>34 Upgraded</span>
-                  <p>Boxes</p>
-                </div>
+            <div class="activity-card">
+              <i class="fas fa-truck activity-logo"></i>
+              <p class="act-card-title">Delivered</p>
+              <span>15 New</span>
+              <p>Paskages</p>
+            </div>
+            <div class="activity-card">
+              <i class="fas fa-chart-pie activity-logo"></i>
+              <p class="act-card-title">Ordered</p>
+              <span>72 New items</span>
+            </div>
+            <div class="activity-card">
+              <i class="far fa-paper-plane activity-logo"></i>
+              <p class="act-card-title">Reporeted</p>
+              <span>72 Support</span>
+              <p>Cases</p>
+            </div>
+            <div class="activity-card">
+              <i class="fas fa-clock activity-logo"></i>
+              <p class="act-card-title">Arrived</p>
+              <span>34 Upgraded</span>
+              <p>Boxes</p>
+            </div>
           </div>
         </div>
         <!-- end activity -->
@@ -337,9 +339,10 @@
         <div class="box blog">
           <div class="blog-img-area">
             <img src="assets/media/blog1.jpg" class="blog-img">
+            <span class="blog-nav">Blog</span>
+            <p class="blog-title">Introducing New Feature</p>
           </div>
-          <p><span class="blog-nav">Blog</span></p>
-          <p class="blog-title">Introducing New Feature</p>
+          
           <div class="blog-disc">
             <div>
               <img src="" alt="Anna Krox">
@@ -370,28 +373,28 @@
       <div class="grid2 col-1-1-1">
         <!-- start profit-amount box area -->
         <div class="box">
-          <div class="widget">
-            <p class="widget_info">
-              <p class="widget_title">Member Profit</p>
+          <div class="profit-widget widget">
+            <div class="widget_info">
+              <p class="widget_profit_title">Member Profit</p>
               <p class="widget_sub_info">Awerage weekly profit</p>
-              <p>Profit</p>
-            </p>
+              <p class="widget_sub_info">Profit</p>
+            </div>
             <p class="widget_number">+$17,800</p>
           </div>
-          <div class="widget">
-            <p class="widget_info">
-              <p class="widget_title">Orders</p>
+          <div class="profit-widget widget">
+            <div class="widget_info">
+              <p class="widget_profit_title">Orders</p>
               <p class="widget_sub_info">Weekly Customer</p>
-              <p>Orders</p>
-            </p>
+              <p class="widget_sub_info">Orders</p>
+            </div>
             <p class="widget_number">+1,800</p>
           </div>
-          <div class="widget">
-            <p class="widget_info">
-              <p class="widget_title">Issue Reports</p>
+          <div class="profit-widget widget">
+            <div class="widget_info">
+              <p class="widget_profit_title">Issue Reports</p>
               <p class="widget_sub_info">System Bugs and</p>
-              <p>issues</p>
-            </p>
+              <p class="widget_sub_info">issues</p>
+            </div>
             <p class="widget_number">-27,49%</p>
           </div>
         </div>
@@ -471,6 +474,44 @@
 
       </div>
     </section>
+    <section class="support-tickets">
+      <div class="support-tickets__header">
+        <h3 class="support-tickets__heading">Support Tickets</h3>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+      <hr>
+      <div class="support-tickets__row">
+        <div class="user-description">
+          <div>
+            <img class="user-img1" src="assets/media/user1.jpg">
+            <h3 class="user-name">Melania Trump<div>2 day ago</div></h3>
+          </div>
+        <span class="ticket-status blue">Pending</span>
+        </div>
+        <p class="ticket-description">Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.</p>
+      </div><hr>
+      <div class="support-tickets__row">
+        <div class="user-description">
+          <div>
+            <img class="user-img1" src="assets/media/user.jpg">
+            <h3 class="user-name">Lebron King James<div>1 day ago</div></h3>
+        </div>
+        <span class="ticket-status purple">Open</span>
+      </div>
+        <p class="ticket-description">Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.Ut wisi enim ad minim veniam,quis nostrud exerci tation ullamcorper.</p>
+      </div><hr>
+       <div class="support-tickets__row">
+          <div class="user-description">
+            <div>
+              <img class="user-img1" src="assets/media/user5.jpg">
+              <h3 class="user-name">Deb Gibson<div >3 weeks ago</div></h3>
+        </div>
+          <span class="ticket-status green">Closed</span>
+      </div>
+        <p class="ticket-description">Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat.</p>
+      </div>
+      
+    </section>
      <!-- recent notifacation -->
     <section class="container">
       <section class="grid1 col-1-1">
@@ -524,6 +565,7 @@
         </section>
       </section>
     </section>
+<<<<<<< HEAD
     <!-- Task -->
     <section class="task">
       <div class="task-head">
@@ -605,6 +647,9 @@
         </div>
       </div>
     </section>
+=======
+    
+>>>>>>> f96356d00b0ef2fefb4dfb02963ad0536990a505
   </main>
   <script src="assets/main.js"></script>
        

@@ -414,6 +414,36 @@ nav {
   background: url('media/treands-chart.png');
   height:300px;
 }
+.widget {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgb(235, 229, 229);
+}
+.trends .widget:last-child {
+  border: none;
+  padding-bottom: 40px;
+}
+.widget_logo {
+  padding-left: 10px;
+}
+.widget_sub_info {
+  font-size: 13px;
+  color: #7b7e8a; 
+}
+.widget_number {
+  font-size: 1.07rem;
+  font-weight: 600;
+  color: #f4516c;
+}
+.widget_info {
+  padding: 0 20px;
+}
+.widget_title {
+  color: #737377;
+  font-weight: 600;
+}
 .activity {
   position: relative;
 }
@@ -421,18 +451,16 @@ nav {
   background: linear-gradient(#dc3545, #e83e8c);
   height: 300px;
 }
-.blog {
-
-}
 .blog-img-area {
   height: 200px;
   position: relative;
 }
 .blog-img {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .blog-nav {
+  position: absolute;
   display: inline-block;
   margin: 20px 0 20px 30px;
   padding: 7px 10px;
@@ -446,7 +474,6 @@ height: 100%;
   margin: 0 20px;
   font-size: 1.45rem;
   font-weight: 600;
-  bottom: 0;
   position: absolute;
 }
 .blog-disc {
@@ -463,6 +490,7 @@ height: 100%;
   padding: 10px 15px;
   border: 1px solid rgb(187, 179, 179);
   border-radius: 25px;
+  font-size: 16px;
 }
 .activity_header__btn {
   border: none;
@@ -474,7 +502,37 @@ height: 100%;
   position: absolute;
   top: 200px;
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
+  left: 14%;
+}
+.activity-card {
+  color: #7b7e8a;
+  background: white;
+  box-shadow:0 0 1px 1px #eff3fa;
+  padding: 30px 10px 10px 20px;
+  font-size: 0.8rem;
+}
+.activity-logo {
+  font-size: 2rem;
+  padding-bottom: 40px;
+}
+.act-card-title {
+  font-size: 1.1rem;
+  color: #6f727d;
+  font-weight: 600;
+}
+.fa-truck {
+  color: #716aca;
+}
+.fa-chart-pie {
+  color: #34bfa3;
+}
+.fa-paper-plane {
+  color: #36a3f7;
+}
+.fa-clock {
+  color: #f4516c;
 }
 
 
@@ -482,6 +540,20 @@ height: 100%;
 /*  ========================================
     Section second
     ========================================  */
+.profit-widget {
+  justify-content: space-between;
+}
+.profit-widget .widget_info {
+  padding: 0;
+}
+.widget_profit_title {
+  color: rgb(37, 37, 37);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.profit-widget .widget_sub_info {
+  font-size: 16px;
+}
 
 
 
@@ -584,6 +656,7 @@ height: 100%;
   text-decoration: none;
   color: gray;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 /*  ========================================
    Task
@@ -654,6 +727,73 @@ height: 100%;
   text-decoration: none;
   color: gray;
 =======
+=======
+}
+
+/*==================================
+support ticket
+==================================*/
+.support-tickets {
+  width: 38vw;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 7px .5px #bdc0c8;
+  font-family: 'Poppins', sans-serif;
+}
+.support-tickets__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.support-tickets__heading {
+  font-weight: 600;
+}
+.user-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: rgba(0,0,0,0.8);
+}
+.user-img1,
+.user-name {
+  display: inline-block;
+}
+.support-tickets__row {
+  line-height: 1rem;
+  margin-top: 1rem;
+  padding: 10px;
+}
+.user-img1 {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+}
+.user-description {
+  display: flex;
+  justify-content: space-between;
+}
+.user-name div{
+  font-size: 12px;
+  color: rgba(0,0,0,0.5);
+}
+.ticket-description {
+  font-size: 14px;
+  margin-top: 10px;
+  
+  color: rgba(0,0,0,0.5);
+}
+.ticket-status {
+  font-size: 15px;
+}
+.blue {
+  color: steelblue;
+}
+.purple {
+  color: purple;
+}
+.green {
+  color: #48D1CC;
+>>>>>>> f96356d00b0ef2fefb4dfb02963ad0536990a505
   padding: 0;
 >>>>>>> 2627f68f6cf3d6479c7099ac57c4a163762a1c3f
 }
