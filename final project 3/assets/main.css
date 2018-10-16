@@ -657,5 +657,70 @@ nav {
 .author__name {
   text-decoration: none;
   color: gray;
+}
+
+/*==================================
+support ticket
+==================================*/
+.support-tickets {
+  width: 38vw;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 7px .5px #bdc0c8;
+  font-family: 'Poppins', sans-serif;
+}
+.support-tickets__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.support-tickets__heading {
+  font-weight: 600;
+}
+.user-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: rgba(0,0,0,0.8);
+}
+.user-img1,
+.user-name {
+  display: inline-block;
+}
+.support-tickets__row {
+  line-height: 1rem;
+  margin-top: 1rem;
+  padding: 10px;
+}
+.user-img1 {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+}
+.user-description {
+  display: flex;
+  justify-content: space-between;
+}
+.user-name div{
+  font-size: 12px;
+  color: rgba(0,0,0,0.5);
+}
+.ticket-description {
+  font-size: 14px;
+  margin-top: 10px;
+  
+  color: rgba(0,0,0,0.5);
+}
+.ticket-status {
+  font-size: 15px;
+}
+.blue {
+  color: steelblue;
+}
+.purple {
+  color: purple;
+}
+.green {
+  color: #48D1CC;
   padding: 0;
 }
