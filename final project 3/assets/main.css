@@ -387,14 +387,24 @@ li:hover i{
 
 .best-seller_item_purchase {
   /* padding-top: 1.5rem; */
-  padding-left: 1.5rem;
+  text-align: center;
+  float: right;
+}
+
+.best-seller_item_purchase_block {
+  /* margin: 0 2rem; */
 }
 
 .best-seller_item_values {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #6f727d;
+  margin: 0 1rem;
 }
  
-
+.best-seller_item_head {
+  font-weight: 300;
+}
 /*  ========================================
     Section first
     ========================================  */
