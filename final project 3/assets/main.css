@@ -1,3 +1,7 @@
+/* Embed Roboto Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,500i');
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -25,6 +29,10 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Embed Font */
@@ -405,6 +413,102 @@ nav {
   display: inline-block;
 }
 
+/* Best Seller Section */
+.best-seller {
+  font-family: 'Roboto', sans-serif;
+  max-width: 65%;
+  margin: 2rem auto;
+  background: #fff;
+}
+
+.best-seller_header_wrapper {
+  display: grid;
+  padding: 1.5rem 0;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #aaa;
+}
+
+.best-seller_title {
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #575962;
+}
+
+.best-seller_buttons {
+  justify-self: end;
+  padding-right: 1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.best-seller_link {
+  color: #575962;
+  padding: 0.5rem 0.5rem;
+}
+
+.active {
+  background-color: #5867dd;
+  color: #fff; 
+  border-radius: 15px;
+}
+
+.best-seller_item_wrapper {
+  padding: 1.5rem;
+}
+
+.best-seller_item_img {
+  width: 115px;
+}
+
+.best-seller_item_info, .best-seller_item_purchase, .best-seller_item_details, .best-seller_item_purchase_block {
+  display: inline-block;
+}
+
+.best-seller_item_details, .best-seller_item_purchase{
+  vertical-align: top;
+}
+
+.best-seller_item_title, .best-seller_item_description, .best-seller_item_publish {
+  margin: 0.3rem 0;
+}
+
+.best-seller_item_title, {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.best-seller_item_description {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.best-seller_item_publish {
+  font-weight: 400;
+  font-size: 0.8rem;  
+}
+
+
+.best-seller_item_purchase {
+  /* padding-top: 1.5rem; */
+  text-align: center;
+  float: right;
+}
+
+.best-seller_item_purchase_block {
+  /* margin: 0 2rem; */
+}
+
+.best-seller_item_values {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #6f727d;
+  margin: 0 1rem;
+}
+ 
+.best-seller_item_head {
+  font-weight: 300;
+}
 /*  ========================================
     Section first
     ========================================  */
@@ -575,6 +679,7 @@ nav {
   background: #ffb822;
 }
 
+
 /*  ========================================
    Recent Notifacation
     ========================================  */
@@ -726,6 +831,9 @@ nav {
 .author__name {
   text-decoration: none;
   color: gray;
+<<<<<<< HEAD
+}
+=======
 =======
 =======
 }
@@ -797,3 +905,4 @@ support ticket
   padding: 0;
 >>>>>>> 2627f68f6cf3d6479c7099ac57c4a163762a1c3f
 }
+>>>>>>> f0b225ed102342d22be52bac6b048b3670ceb3ca
