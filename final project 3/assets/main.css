@@ -712,7 +712,7 @@ nav {
 /*  ========================================
     Section Third
     ========================================  */
-    
+
 .personal_income_hero {
   background: url('media/personal-income-bg.jpg') center;
   background-size: cover;
@@ -727,7 +727,19 @@ nav {
   background: #ffb822;
 }
 .personal_income_header {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.personal_income_title {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+.personal_income_btn {
+  background: transparent;
+  border: 1px solid white;
 }
 
 
