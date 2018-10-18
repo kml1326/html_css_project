@@ -414,6 +414,7 @@ nav {
 }
 
 /* Best Seller Section */
+/* By Praveen */
 .best-seller {
   font-family: 'Roboto', sans-serif;
   max-width: 65%;
@@ -527,6 +528,78 @@ nav {
  color: #36a3f7 !important;
  margin-right: 10px;
 }
+
+/* Authors Profit Section */
+/* By Praveen */
+.authors-profit {
+  font-family: 'Roboto', sans-serif;
+  max-width: 30%;
+  background: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.rotate-it {
+  transform: rotate(90deg);
+  display: inline-block;
+  padding: 0.2rem 0.2rem;
+}
+
+.authors-profit_header_container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.authors-profit_title {
+  align-self : center;
+  font-weight: 500;
+  color: #4c4c4c;
+}
+
+.author-profit_btn {
+  background: transparent;
+  color: #716aca;
+  border: 1px solid  #ddd;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.author-profit_item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 1rem 0;
+  border-bottom:  1px dashed #ddd;
+}
+
+.no_border {
+  border: none;
+}
+
+.author-profit_item_info {
+  vertical-align: text-bottom;
+  padding: 0 0.3rem;
+}
+
+.author-profit_item_worth {
+  place-self: center;
+  vertical-align: top;
+  font-weight: 500;
+  color: #596acc;
+}
+
+.author-profit_item_title {
+  font-weight: 500;
+  color: #4c4c4c;
+}
+
+.author-profit_item_caption {
+  font-size: 0.8rem;  
+  font-weight: 300;
+}
+
+
 /*  ========================================
     Section first
     ========================================  */
@@ -789,6 +862,7 @@ nav {
   outline: none;
   padding: 0.6em 1.4em;
   font-size: .85rem;
+  cursor: pointer;
  }
 .list_items {
   display: grid;
