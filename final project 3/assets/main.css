@@ -453,6 +453,20 @@ nav {
   border-radius: 15px;
 }
 
+.best-seller_item {
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed rgba(165, 163, 163, 0.808);
+}
+
+.item_two {
+  padding: 2rem 0; 
+}
+
+.item_three {
+  padding-top: 2rem;
+  border: none;
+}
+
 .best-seller_item_wrapper {
   padding: 1.5rem;
 }
@@ -469,13 +483,14 @@ nav {
   vertical-align: top;
 }
 
-.best-seller_item_title, .best-seller_item_description, .best-seller_item_publish {
+.best-seller_item_description, .best-seller_item_publish {
   margin: 0.3rem 0;
 }
 
-.best-seller_item_title, {
+.best-seller_item_title {
   font-size: 0.9rem;
   font-weight: 500;
+  margin: 0.3rem 0;
 }
 
 .best-seller_item_description {
@@ -486,6 +501,7 @@ nav {
 .best-seller_item_publish {
   font-weight: 400;
   font-size: 0.8rem;  
+  font-weight: 500;
 }
 
 
@@ -495,9 +511,6 @@ nav {
   float: right;
 }
 
-.best-seller_item_purchase_block {
-  /* margin: 0 2rem; */
-}
 
 .best-seller_item_values {
   font-size: 1.1rem;
@@ -508,6 +521,11 @@ nav {
  
 .best-seller_item_head {
   font-weight: 300;
+}
+
+.best-seller_item_date, .best-seller_author{
+ color: #36a3f7 !important;
+ margin-right: 10px;
 }
 /*  ========================================
     Section first
