@@ -747,8 +747,6 @@ nav {
    Recent Notifacation
     ========================================  */
 .recent-notifacation {
-  background-color: #fff;
-  box-shadow: 0 0 7px .5px #bdc0c8;
   box-sizing: border-box;
 }
 .recent-heading {
@@ -825,7 +823,7 @@ nav {
   color: gray;
 }
 /*  ========================================
-   Task
+        Task
     ========================================  */
 .task-notifacation {
   background-color: #fff;
@@ -834,10 +832,7 @@ nav {
   width: 500px;
 }
 .task {
-  background-color: white;
-  width: 38vw;
   padding: 2rem;
-
 }
 .task_heading{
   margin-left: 20px;
@@ -909,8 +904,6 @@ nav {
   color:#40534f;
   padding: 15px 20px;
   font-size: 20px;
-/*  border-left: 4px solid #36a3f7;*/
-/*  margin-left: 10px;*/
 }
 
 .title{
@@ -931,6 +924,7 @@ nav {
 }
 .author__info {
   padding:6px;
+  font-size: 14px;
 }
 
 /*==================================
